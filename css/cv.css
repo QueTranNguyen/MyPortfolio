@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.cv {
+    background-color: #fff;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    letter-spacing: 1.5;
+
+}
+
+.container {
+    background-color: #fff;
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0 10px 50px #858585;
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+    row-gap: 30px;
+}
+
+.avatar img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.name {
+    padding-left: 30px;
+    border-left: 1px solid #000;
+}
+
+.name h1 {
+    font-weight: 400;
+    font-size: xxx-large;
+    margin: 0 0 0 5px;
+}
+
+.name .specialize {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin: 10px 0 16px 5px;
+
+}
+
+.name .contact {
+    padding: 0;
+    list-style: none;
+}
+
+.name .contact span {
+    display: inline-block;
+    background-color: #000;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.name .contact li {
+    padding: 5px 0;
+    transform: translate(-40px);
+}
+
+.info ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    line-height: 30px;
+}
+
+h2 {
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.intro {
+    padding-left: 30px;
+    padding-right: 70px;
+    border-left: 1px solid #000;
+    text-align: justify;
+}
+
+.experience {
+    text-align: right;
+    padding-left: 70px;
+}
+
+.experience h5 {
+    font-size: 18px;
+}
+
+.skills {
+    margin-top: 40px;
+}
+
+.experience ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: end;
+}
+
+.experience li {
+    padding: 0 0 20px 0;
+}
+
+.project {
+    padding-left: 30px;
+    padding-right: 70px;
+    text-align: justify;
+    border-left: 1px solid #000;
+}
+
+.project h4 {
+    margin: 20px 0 10px;
+}
+
+.project .web {
+    color: #0c7373;
+    padding: 10px 0;
+}
+
+.project .location {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+
+.time .link {
+    font-weight: 600;
+}
+
+.project .item {
+    position: relative;
+}
+
+.project .item::before {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: #000;
+    content: '';
+    border-radius: 50%;
+    left: -37px;
+}
+
+.achievement h4 {
+    margin: 20px 0 10px;
+}
+
+.item .achivement .strong {
+    font-weight: 600;
+}
+
+.item .achivement p {
+    padding: 0 0 5px 0;
+}
